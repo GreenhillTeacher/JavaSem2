@@ -9,10 +9,9 @@ public class forLoops {
         }
  
 }
-
 public static void frontDots (int line) {  // a method with a parameter
     for(int dots=1; dots<= -line+SIZE; dots++){
-        System.out.print(".");
+        System.out.print("*");
     }
 }
 public static void backDots (int line) {
